@@ -1,0 +1,331 @@
+.aboutus-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-right: var(--bs-gutter-x,15px);
+    padding-left: 15px;
+    padding-left: var(--bs-gutter-x,15px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-area .year-exp{
+    background-color: #F0F8FF;
+    border-radius: 60px 60px 0 60px;
+    padding: 60px 0 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 120px;
+    font-weight: 800;
+    position: relative;
+    display: block;
+    color: #5995fd;
+    z-index: 2;
+    width: 220px;
+}
+
+.li-about{
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+.ul-about{
+    list-style-position: outside;
+    list-style-type: disc;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    margin-bottom: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.image-area .year-exp:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #5995fd;
+    border-radius: 60px 60px 0 60px;
+    z-index: -1;
+}
+
+.image-1, .image-2, .image-3{
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.flo{
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)*-0.5);
+    margin-left: calc(var(--bs-gutter-x)*-0.5);
+    align-items: center!important;
+}
+
+.image-area .image-3{
+    border-radius: 60px 60px 60px 0;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.image-area .image-1{
+    border-radius: 0 60px 60px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.image-area .image-2{
+    border-radius: 60px 0 60px 60px;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.image-area .year-exp span{
+    display: block;
+    font-size: 18px;
+    color: #002D62;
+}
+
+.flo-col{
+    margin-bottom: 30px;
+    float: left;
+    width: 50%;
+}
+
+.image-area{
+    margin-right: 30px;
+    position: relative;
+}
+
+/*.image-area::after{
+    content: "";
+    position: absolute;
+    top: 49%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #5995fd;
+    border-radius: 15px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}*/
+
+.image-area ul li:first-child, .image-area ul li:nth-child(3){
+    width: 45%;
+}
+
+.image-area ul li:nth-child(2), .image-area ul li:nth-child(4){
+    width: 55%;
+    padding-left: 20px;
+}
+
+.image-area ul li{
+    display: inline-flex;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    padding: 0;
+}
+
+.about-heading .about-title{
+    /*font-weight: 700;
+    display: inline-block;
+    padding: 3px 15px;
+    background-position: 50%;
+    background-repeat: repeat;
+    margin-bottom: 15px;
+    --bs-text-opacity: 1;
+    font-family: "Montserrat",sans-serif;
+    color: #333;
+    line-height: 1.3;
+    font-size: 18px;
+    font-weight: 700;
+    font-size: 1.125rem;*/
+    color: #002D62;
+    font-weight: bold;
+    font-size: 50px;
+}
+.feature1,.feature2{
+    display: flex;
+    border: 2px solid #FAF9F6;
+    background-color: #F0F8FF;
+    width: auto;
+}
+.feature3,.feature4{
+    display: flex;
+    border: 2px solid #FAF9F6;
+    background-color: #F0F8FF;
+    width: auto;
+}
+.about-title2{
+    font-family:'Times New Roman', Times, serif;
+    color: #002D62;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.p-about{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.about-heading{
+    margin-bottom: 45px;
+}
+
+.icon1, .icon2, .icon3, .icon4 span{
+    /*padding: 15px;
+    border: #5995fd  solid 2px;
+    border-radius: 5px;
+*/
+    color: #002D62;
+}
+
+
+.icon-content{
+    display: inline-block;
+    padding: 5px;
+    color: #002D62;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.icon-contents{
+    display: inline-block;
+    padding: 5px;
+    color: #002D62;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.feature1, .feature2{
+    width: 50%;
+    float: left;
+}
+
+.feature3, .feature4{
+    width: 50%;
+    float: left;
+}
+
+.feature1, .feature2, .feature3, .feature4{
+    padding: 20px;
+}
+.feature1:hover, .feature2:hover, .feature3:hover, .feature4:hover{
+    background-color: white;
+    border: 2px solid #A7C7E7;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .aboutus-container {
+      flex-direction: column;
+    }
+
+    .flo {
+      flex-wrap: wrap;
+    }
+
+    .flo-col {
+      width: 100%;
+      padding: 0;
+    }
+
+    .image-area {
+      margin-bottom: 20px;
+    }
+
+    .ul-about {
+      flex-wrap: wrap;
+    }
+
+    .li-about {
+      margin: 10px 0;
+    }
+
+    .year-exp {
+      position: static;
+      margin: 20px auto;
+    }
+
+    .about-title2 {
+      font-size: 24px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .p-about {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .flo {
+      justify-content: space-between;
+    }
+
+    .flo-col {
+      width: 45%;
+      padding: 0 10px;
+    }
+
+    .about-title2 {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+    }
+
+    .p-about {
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .flo-col {
+      width: 50%;
+    }
+  }

@@ -1,0 +1,22 @@
+.comment-style{
+    background-color: #FF5733;
+    /*
+    height: auto;
+    color: white;
+    margin-left: 900px;
+    margin-top: 40px;
+    margin-right: 70px;
+    padding-right: 10px;
+    border-radius: 20px 20px 20px 0;*/
+    width: fit-content;
+    position: relative;
+    height: fit-content;
+    border-radius: 40px 0px 40px 40px;
+    padding: 50px 30px 30px;
+    margin: 50px 30px 30px;
+}
+.comment-h{
+    color: #002D62;
+    font-weight: bold;
+    font-size: 50px;
+}

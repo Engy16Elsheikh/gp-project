@@ -1,0 +1,14 @@
+.article-style p{
+    font-size: 18px;
+}
+.article-style h1{
+    color: blue;
+}
+.article-style .o-style{
+    background-color: red;
+    width: 700px;
+    color:white
+}
+.article-style .words-style{
+    width: 700px;
+}
