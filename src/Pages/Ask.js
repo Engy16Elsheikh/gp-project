@@ -1,4 +1,5 @@
 import React from "react";
+import './Ask.css';
 const Ask=()=>{
     return(
       <>
