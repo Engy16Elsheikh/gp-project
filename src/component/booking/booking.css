@@ -1,0 +1,159 @@
+.appointment-container{
+  background-image: url('../../Assets/appointment.jpeg'); 
+  width: auto;
+  height: 700px;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  margin-bottom: 600px;
+}
+
+.header-appoint{
+  text-align: center;
+  margin-top: 70px;
+  color: #444;
+  font-weight: 700;
+  font-size: 72px;
+  margin-bottom: 20px;
+  text-transform: capitalize; 
+}
+
+.book-form{
+  width: 60%;
+  height: auto;
+  padding-right: 15px;
+  padding-right: var(--bs-gutter-x,15px);
+  padding-left: 15px;
+  padding-left: var(--bs-gutter-x,15px);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  overflow: visible;
+  background-color: #FFF;
+}
+
+.book-row{
+  justify-content: center!important;
+  --bs-gutter-x: 30px;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y)*-1);
+  margin-right: calc(var(--bs-gutter-x)*-0.5);
+  margin-left: calc(var(--bs-gutter-x)*-0.5);
+}
+
+.form-wraper .book-form-control{
+  border: 1px solid #444;
+  border-radius: 8px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.book-btn{
+  margin-top: 5px;
+  background-color: #5995fd;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all .5s;
+  border-width: 2px;
+  line-height: 1.2px;
+  border-color: #5995fd;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.book-btn:hover{
+  background-color: #4d84e2;
+}
+
+.book-form-group{
+  margin-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.booking-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*.check-item-form{
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.checkbox-form{
+  display: flex;
+  flex-wrap: wrap;
+}*/
+/*.check-box-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 2px; 
+}
+
+.check-item-form {
+  display: block;
+}
+
+.symptom-label {
+  display: block;
+  margin-left: 2px;
+}*/
+.check-box-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding-left: 50px;
+  font-size: 14px; /* Make the font size smaller */
+}
+
+.check-item-form {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap; /* Prevent the label from wrapping to a new line */
+}
+
+.check-item-form input[type="checkbox"] {
+  margin-right: 5px; /* Reduce the right margin of the checkbox */
+}
+
+.symptom-label {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: break-word; /* Allow the label to wrap to a new line if it doesn't fit */
+  margin-left: 5px; /* Reduce the left margin of the label */
+}
+.booking{
+  border: 1px solid #ccc;
+border-radius: 15px; 
+padding: 8px; 
+font-size: 16px; 
+box-sizing: border-box; 
+width: 100%; 
+margin-bottom: 5px;
+}
+.symptom-label{
+  color: #28282B;
+}
+.symptom-p{
+  color: #444;
+  font-weight: bold;
+}

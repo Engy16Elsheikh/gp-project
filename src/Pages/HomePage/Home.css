@@ -1,0 +1,155 @@
+header{
+    margin-top: 0px;
+}
+header .row{
+    margin: 50px 0px;
+}
+header .row h5{
+  color:#002D62;
+  font-size: 20px;
+  margin:40px 0px 10px 0px;
+}
+header h2{
+    color:#002D62;
+    font-size:50px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+}
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+    -moz-animation: mover 1s infinite alternate ;
+    -webkit-animation:  mover 1s infinite alternate;
+    -o-animation:  mover 1s infinite alternate;
+}
+header button{
+    background-color: var(--orange-color);
+    width:200px;
+    height:60px;
+    border: 1px solid var(--orange-color);
+    border-radius:6px;
+    margin-top: 20px;
+}
+header button a{
+    color:white;
+    font-size:17px;
+}
+header button:hover a{
+    color: white;
+}
+.btn-booking{
+    width: 300px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 120px;
+    transition: 0.5s;
+    text-align: center;
+}
+.btn-booking:hover{
+    background-color: #4d84e2;
+}
+.asking{
+    margin: 10px 130px;
+    align-content: center;
+}
+@keyframes mover{
+    0%{
+        transform:translateY(0px)
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@-webkit-keyframes mover{
+    0%{
+        transform:translateY(0px)
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@-moz-keyframes mover{
+    0%{
+        transform:translateY(0px)
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@-o-keyframes mover{
+    0%{
+        transform:translateY(0px)
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+header svg{
+    color:#5995fd;
+    font-size: 80px;
+    position: absolute;
+    left:50%;
+    top:30%;
+    animation: mover 2s infinite alternate;
+    -moz-animation: mover 2s infinite alternate ;
+    -webkit-animation:  mover 2s infinite alternate;
+    -o-animation:  mover 2s infinite alternate;
+   
+}
+header.header-box{
+    position: relative;
+    max-width:100%;
+    height: auto;
+}
+header span{
+    display: block;
+    font-size:200px;
+    color: white;
+    -webkit-text-stroke: 1px var(--orange-color);
+    -moz-text-stroke: 1px var(--orange-color);
+    -o-text-stroke: 1px var(--orange-color);
+    animation: mover 2s infinite alternate ;
+    -moz-animation: mover 2s infinite alternate ;
+    -webkit-animation:  mover 2s infinite alternate;
+    -o-animation:  mover 2s infinite alternate;
+    
+}
+@media only screen and (max-width: 768px) {
+    .btn-booking {
+      width: 200px;
+      height: 50px;
+      font-size: 16px;
+      margin: 10px auto;
+    }
+  
+    .asking {
+      margin: 10px auto;
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .btn-booking {
+      width: 150px;
+      height: 40px;
+      font-size: 14px;
+      margin: 10px auto;
+    }
+  
+    .asking {
+      margin: 10px auto;
+      font-size: 12px;
+    }
+  }

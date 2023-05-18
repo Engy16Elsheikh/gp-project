@@ -1,0 +1,165 @@
+.profile-container{
+    display: grid;
+    grid-template-columns: 35% 55%;
+    column-gap: 10%;
+    padding: 50px;
+}
+
+.image-profile{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.image-name{
+    font-size: 30px;
+    color: #5995fd;
+    text-transform: capitalize ;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    word-wrap: break-word;
+    background-color: #F0F8FF;
+    background-clip: border-box;
+    border: 0 solid #F0F8FF;
+    border-radius: 1rem;
+}
+
+.hr-profile{
+    width: 80%;
+    align-self: center;
+    color: #5995fd;
+}
+
+.field{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.profile-label{
+    width :25%;
+    color :#002D62;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.profile-content{
+    width: 75%;
+    color: #002D62;
+}
+.btn-profile{
+    margin-left: 50%;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  background-color: #5995fd;
+  border-radius: 10px;
+}
+.btn-profile:hover{
+    background-color: #4d84e2;
+}
+
+
+  
+  /* Media query for devices with a maximum width of 767px (phone screens) */
+@media only screen and (max-width: 767px) {
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .image-profile {
+      width: 50%;
+    }
+  
+    .image-name {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .info-container {
+      border-radius: 0;
+      background-color: transparent;
+      border: none;
+    }
+  
+    .field {
+      margin: 10px;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  
+    .profile-label {
+      width: 30%;
+      font-size: 14px;
+    }
+  
+    .profile-content {
+      width: 70%;
+      font-size: 14px;
+    }
+  
+    .btn-profile {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+  
+  /* Media query for devices with a minimum width of 768px and maximum width of 1023px (tablet screens) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-container {
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+      padding: 30px;
+    }
+  
+    .image-container {
+      margin-bottom: 0;
+    }
+  
+    .image-name {
+      font-size: 28px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .field {
+      margin: 10px;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  
+    .profile-label {
+      width: 35%;
+      font-size: 16px;
+    }
+  
+    .profile-content {
+      width: 65%;
+      font-size: 16px;
+    }
+  }
